@@ -25,3 +25,5 @@ def loglikelihood(mean_arr, sampled_arr, sigma):
   logll = tf.reduce_sum(logll, 2)
   logll = tf.transpose(logll)  # [batch_sz, timesteps]
   return logll
+
+#ImportError: __future__ not supported
